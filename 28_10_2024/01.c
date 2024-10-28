@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main() {
-    float item, product;
+    float item;
+    float product = 1.0;
     printf("Enter item value: ");
     scanf("%f", &item);
-    printf("Enter product value: ");
-    scanf("%f", &product);
     if (item != 0) {
         product *= item;
     }
