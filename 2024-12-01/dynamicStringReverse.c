@@ -10,14 +10,12 @@ char* reverseString(char* str) {
         printf("Memory not available!\n");
         exit(7);
     }
-
     for(int i = 0; i < n; i++) {
         reversed[i] = str[n - 1 - i];
     }
 
     return reversed;
 }
-
 int main () {
 	int n;
 	printf("Enter the size of string: ");
